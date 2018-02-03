@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import Media from '../src/playlist/components/media'
 
 const app = document.getElementById("app");
 
-const hiWorld = <h1>Hola a todos</h1>;
-
-ReactDOM(hiWorld, app)
+render(<Media />, app);

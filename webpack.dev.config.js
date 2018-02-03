@@ -5,7 +5,7 @@ module.exports = {
     "reactjs-video-app": path.resolve(__dirname, 'src/index.js'),
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].js'
   },
   devServer: {
