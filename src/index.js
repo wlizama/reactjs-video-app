@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const app = document.getElementById("app");
+
+const hiWorld = <h1>Hola a todos</h1>;
+
+ReactDOM(hiWorld, app)
