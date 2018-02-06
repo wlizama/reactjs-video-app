@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    "reactjs-video-app": path.resolve(__dirname, 'src/index.js'),
+    "home": path.resolve(__dirname, 'src/entries/home.js'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
