@@ -1,14 +1,16 @@
 import React from 'react'
 import Category from './category'
 
-function Category(props) {
+function Categories(props) {
   return (
     <div>
-      props.categories.map((item) => {
+    {
+      props.categories.map((item) =>{
         return <Category key={item.id} {...item} />
       })
+    }
     </div>
   )
 }
 
-export default Category; 
+export default Categories; 
